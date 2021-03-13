@@ -1,4 +1,5 @@
 
+
 const qusestion= document.getElementById('question');
 const answearA= document.getElementById('a');
 const answearB= document.getElementById('b');
@@ -20,7 +21,7 @@ function getQuiz(){
 }
 getQuiz();
 
-function next(e){
+function next(){
     if(questionsBase.length!=counter+1)
     {
         const elements= document.getElementsByName('answ');

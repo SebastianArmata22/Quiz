@@ -8,8 +8,8 @@
     min-height: 100vh;
     background-image: url('./photos/gra_o_tron_logo.jpg');
     background-position: center;
-    background-size: 100% 100%;
-    font-family: sans-serif;
+    background-size: 100% 100vh;
+    font-family: 'Noto Sans JP', sans-serif;
     font-size: 15px;
 }
 
@@ -38,13 +38,13 @@ button{
     bottom: 0em;
     height: 3rem;
     font-size: 1.2rem;
-    background-color: #f0932b;
+    background-color: #16a085;
     color: cornsilk;
     border-style: none;
 }
 
 button:hover{
-    background-color:  #ffaa49;
+    background-color:  #1abc9c;
 }
 @media only screen and (max-width:900px) {
     .quiz-container{

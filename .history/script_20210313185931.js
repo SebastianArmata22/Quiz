@@ -23,6 +23,7 @@ getQuiz();
 function next(e){
     if(questionsBase.length!=counter+1)
     {
+        answearA.preventDefault()
         const elements= document.getElementsByName('answ');
         for(i=0;i<elements.length;i++){
             if(elements[i].checked){

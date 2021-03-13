@@ -20,7 +20,7 @@ function getQuiz(){
 }
 getQuiz();
 
-function next(e){
+function next(){
     if(questionsBase.length!=counter+1)
     {
         const elements= document.getElementsByName('answ');
